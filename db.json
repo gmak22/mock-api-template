@@ -56,12 +56,12 @@
     },
     {
       "id": 7,
-      "Name": "Colgate Total Toothpaste",
-      "Category": "Mouth & Teeth",
-      "Price": 79,
-      "Desc": "Colgate Total Toothpaste helps maintain oral hygiene and prevent cavities.",
-      "Manufacturer": "Colgate-Palmolive",
-      "Image": "colgate_total_toothpaste.jpg"
+      "Name": "Coppertone Kids Sunscreen Spray",
+      "Category": "Personal Care",
+      "Price": 199,
+      "Desc": "Coppertone Kids Sunscreen Spray offers easy application and sun protection for children.",
+      "Manufacturer": "Bayer",
+      "Image": "https://m.media-amazon.com/images/I/51vsY9aw1+L.jpg"
     },
     {
       "id": 8,
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "Name": "Himalaya Neem Face Wash",
-      "Category": "Cosmetics",
+      "Category": "Personal Care",
       "Price": 120,
       "Desc": "Himalaya Neem Face Wash cleanses and purifies the skin, preventing acne and pimples.",
       "Manufacturer": "Himalaya Wellness",
@@ -83,12 +83,12 @@
     },
     {
       "id": 10,
-      "Name": "Sensodyne Toothbrush",
-      "Category": "Mouth & Teeth",
+      "Name": "Visine Redness Relief Eye Drops",
+      "Category": "Eye Care",
       "Price": 99,
-      "Desc": "Sensodyne Toothbrush is specially designed for sensitive teeth and gums.",
-      "Manufacturer": "GSK Consumer Healthcare",
-      "Image": "sensodyne_toothbrush.jpg"
+      "Desc": "Visine Redness Relief Eye Drops provide quick relief from red and irritated eyes.",
+      "Manufacturer": "Visine",
+      "Image": "https://www.visine.com/sites/visine_us/files/styles/product_image/public/product-images/00312547493802_vis_redeye_comfort_obwb.png"
     },
     {
       "id": 11,
@@ -102,11 +102,11 @@
     {
       "id": 12,
       "Name": "Himalaya Herbals Protein Shampoo",
-      "Category": "Cosmetics",
+      "Category": "Personal Care",
       "Price": 180,
       "Desc": "Himalaya Herbals Protein Shampoo nourishes and strengthens your hair.",
       "Manufacturer": "Himalaya Wellness",
-      "Image": "himalaya_protein_shampoo.jpg"
+      "Image": "https://m.media-amazon.com/images/I/51FXMtTl4nL.jpg"
     },
     {
       "id": 13,
@@ -119,12 +119,12 @@
     },
     {
       "id": 14,
-      "Name": "Listerine Cool Mint Mouthwash",
-      "Category": "Mouth & Teeth",
-      "Price": 135,
-      "Desc": "Listerine Cool Mint Mouthwash kills germs and freshens breath for a clean mouth.",
-      "Manufacturer": "Johnson & Johnson",
-      "Image": "listerine_cool_mint_mouthwash.jpg"
+      "Name": "Sundown Naturals Vitamin D3 Softgels",
+      "Category": "Vitamins and Minerals",
+      "Price": 149,
+      "Desc": "Sundown Naturals Vitamin D3 Softgels support bone and immune health.",
+      "Manufacturer": "Sundown Naturals",
+      "Image": "https://images-cdn.ubuy.co.in/633b504c530dc1478e59c205-sundown-naturals-vitamin-d3-25-mcg-1000.jpg"
     },
     {
       "id": 15,
@@ -147,7 +147,7 @@
     {
       "id": 17,
       "Name": "Neutrogena Lip Balm",
-      "Category": "Handcare",
+      "Category": "Personal Care",
       "Price": 125,
       "Desc": "Neutrogena Lip Balm helps keep your lips moisturized and protected from dryness and cracking.",
       "Manufacturer": "Neutrogena",
@@ -209,12 +209,12 @@
     },
     {
       "id": 24,
-      "Name": "Sensodyne Pronamel Toothpaste",
-      "Category": "Mouth & Teeth",
-      "Price": 120,
-      "Desc": "Sensodyne Pronamel Toothpaste helps protect enamel and reduce sensitivity.",
-      "Manufacturer": "GSK Consumer Healthcare",
-      "Image": "sensodyne_pronamel_toothpaste.jpg"
+      "Name": "Carmex Lip Balm",
+      "Category": "Lip Care",
+      "Price": 69,
+      "Desc": "Carmex Lip Balm soothes and protects dry and chapped lips.",
+      "Manufacturer": "Carma Laboratories",
+      "Image": "https://cdn.webshopapp.com/shops/125574/files/408487013/carmex-carmex-moisturizing-lip-balm-classic-stick.jpg"
     },
     {
       "id": 25,
@@ -227,12 +227,12 @@
     },
     {
       "id": 26,
-      "Name": "Maybelline Fit Me Matte + Poreless Foundation",
-      "Category": "Cosmetics",
+      "Name": "Thorne Research Magnesium Citrate",
+      "Category": "Vitamins and Minerals",
       "Price": 299,
-      "Desc": "Maybelline Fit Me Matte + Poreless Foundation gives a natural and matte finish for all-day wear.",
-      "Manufacturer": "Maybelline",
-      "Image": "maybelline_fit_me_foundation.jpg"
+      "Desc": "Thorne Research Magnesium Citrate supports muscle and nerve function.",
+      "Manufacturer": "Thorne Research",
+      "Image": "https://images-cdn.ubuy.co.in/64ddf8aa0513a92525291b57-thorne-research-magnesium-citramate.jpg"
     },
     {
       "id": 27,
@@ -245,12 +245,12 @@
     },
     {
       "id": 28,
-      "Name": "Oral-B Pro 1000 Electric Toothbrush",
-      "Category": "Mouth & Teeth",
-      "Price": 499,
-      "Desc": "Oral-B Pro 1000 Electric Toothbrush provides superior cleaning and plaque removal.",
-      "Manufacturer": "Procter & Gamble",
-      "Image": "oralb_pro_1000_toothbrush.jpg"
+      "Name": "Burt's Bees Lip Balm",
+      "Category": "Lip Care",
+      "Price": 59,
+      "Desc": "Burt's Bees Lip Balm moisturizes and nourishes lips with natural ingredients.",
+      "Manufacturer": "Burt's Bees",
+      "Image": "https://i5.walmartimages.com/seo/Burt-s-Bees-Moisturizing-Lip-Balm-Pomegranate-1-ct_aaaa7f81-4523-4471-b934-a334127275d7.515ce93b1adccc74c0047d7988536b63.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
     },
     {
       "id": 29,
@@ -493,7 +493,7 @@
       "Price": 299,
       "Desc": "Nature's Bounty Fish Oil Softgels support heart and joint health with omega-3 fatty acids.",
       "Manufacturer": "Nature's Bounty",
-      "Image": "https://5.imimg.com/data5/SELLER/Default/2023/7/323102704/QJ/SD/YP/126733516/nature-s-bounty-fish-oil-1400-mg-130-coated-softgels.jpg"
+      "Image": "https://res.cloudinary.com/raffeldeals/image/fetch/https://www.raffeldeals.com/media/21682/catalog/0026367-systane-icaps-multivitamin-coated-tablets.jpg?size=256"
     },
     {
       "id": 56,
