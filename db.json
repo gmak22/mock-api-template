@@ -56,12 +56,12 @@
     },
     {
       "id": 7,
-      "Name": "Coppertone Kids Sunscreen Spray",
-      "Category": "Personal Care",
-      "Price": 199,
-      "Desc": "Coppertone Kids Sunscreen Spray offers easy application and sun protection for children.",
-      "Manufacturer": "Bayer",
-      "Image": "https://m.media-amazon.com/images/I/51vsY9aw1+L.jpg"
+      "Name": "Colgate Total Toothpaste",
+      "Category": "Mouth & Teeth",
+      "Price": 79,
+      "Desc": "Colgate Total Toothpaste helps maintain oral hygiene and prevent cavities.",
+      "Manufacturer": "Colgate-Palmolive",
+      "Image": "colgate_total_toothpaste.jpg"
     },
     {
       "id": 8,
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "Name": "Himalaya Neem Face Wash",
-      "Category": "Personal Care",
+      "Category": "Cosmetics",
       "Price": 120,
       "Desc": "Himalaya Neem Face Wash cleanses and purifies the skin, preventing acne and pimples.",
       "Manufacturer": "Himalaya Wellness",
@@ -83,12 +83,12 @@
     },
     {
       "id": 10,
-      "Name": "Visine Redness Relief Eye Drops",
-      "Category": "Eye Care",
+      "Name": "Sensodyne Toothbrush",
+      "Category": "Mouth & Teeth",
       "Price": 99,
-      "Desc": "Visine Redness Relief Eye Drops provide quick relief from red and irritated eyes.",
-      "Manufacturer": "Visine",
-      "Image": "https://www.visine.com/sites/visine_us/files/styles/product_image/public/product-images/00312547493802_vis_redeye_comfort_obwb.png"
+      "Desc": "Sensodyne Toothbrush is specially designed for sensitive teeth and gums.",
+      "Manufacturer": "GSK Consumer Healthcare",
+      "Image": "sensodyne_toothbrush.jpg"
     },
     {
       "id": 11,
@@ -102,11 +102,11 @@
     {
       "id": 12,
       "Name": "Himalaya Herbals Protein Shampoo",
-      "Category": "Personal Care",
+      "Category": "Cosmetics",
       "Price": 180,
       "Desc": "Himalaya Herbals Protein Shampoo nourishes and strengthens your hair.",
       "Manufacturer": "Himalaya Wellness",
-      "Image": "https://m.media-amazon.com/images/I/51FXMtTl4nL.jpg"
+      "Image": "himalaya_protein_shampoo.jpg"
     },
     {
       "id": 13,
@@ -119,12 +119,12 @@
     },
     {
       "id": 14,
-      "Name": "Sundown Naturals Vitamin D3 Softgels",
-      "Category": "Vitamins and Minerals",
-      "Price": 149,
-      "Desc": "Sundown Naturals Vitamin D3 Softgels support bone and immune health.",
-      "Manufacturer": "Sundown Naturals",
-      "Image": "https://images-cdn.ubuy.co.in/633b504c530dc1478e59c205-sundown-naturals-vitamin-d3-25-mcg-1000.jpg"
+      "Name": "Listerine Cool Mint Mouthwash",
+      "Category": "Mouth & Teeth",
+      "Price": 135,
+      "Desc": "Listerine Cool Mint Mouthwash kills germs and freshens breath for a clean mouth.",
+      "Manufacturer": "Johnson & Johnson",
+      "Image": "listerine_cool_mint_mouthwash.jpg"
     },
     {
       "id": 15,
@@ -147,7 +147,7 @@
     {
       "id": 17,
       "Name": "Neutrogena Lip Balm",
-      "Category": "Personal Care",
+      "Category": "Handcare",
       "Price": 125,
       "Desc": "Neutrogena Lip Balm helps keep your lips moisturized and protected from dryness and cracking.",
       "Manufacturer": "Neutrogena",
@@ -209,12 +209,12 @@
     },
     {
       "id": 24,
-      "Name": "Carmex Lip Balm",
-      "Category": "Lip Care",
-      "Price": 69,
-      "Desc": "Carmex Lip Balm soothes and protects dry and chapped lips.",
-      "Manufacturer": "Carma Laboratories",
-      "Image": "https://cdn.webshopapp.com/shops/125574/files/408487013/carmex-carmex-moisturizing-lip-balm-classic-stick.jpg"
+      "Name": "Sensodyne Pronamel Toothpaste",
+      "Category": "Mouth & Teeth",
+      "Price": 120,
+      "Desc": "Sensodyne Pronamel Toothpaste helps protect enamel and reduce sensitivity.",
+      "Manufacturer": "GSK Consumer Healthcare",
+      "Image": "sensodyne_pronamel_toothpaste.jpg"
     },
     {
       "id": 25,
@@ -227,12 +227,12 @@
     },
     {
       "id": 26,
-      "Name": "Thorne Research Magnesium Citrate",
-      "Category": "Vitamins and Minerals",
+      "Name": "Maybelline Fit Me Matte + Poreless Foundation",
+      "Category": "Cosmetics",
       "Price": 299,
-      "Desc": "Thorne Research Magnesium Citrate supports muscle and nerve function.",
-      "Manufacturer": "Thorne Research",
-      "Image": "https://images-cdn.ubuy.co.in/64ddf8aa0513a92525291b57-thorne-research-magnesium-citramate.jpg"
+      "Desc": "Maybelline Fit Me Matte + Poreless Foundation gives a natural and matte finish for all-day wear.",
+      "Manufacturer": "Maybelline",
+      "Image": "maybelline_fit_me_foundation.jpg"
     },
     {
       "id": 27,
@@ -245,12 +245,12 @@
     },
     {
       "id": 28,
-      "Name": "Burt's Bees Lip Balm",
-      "Category": "Lip Care",
-      "Price": 59,
-      "Desc": "Burt's Bees Lip Balm moisturizes and nourishes lips with natural ingredients.",
-      "Manufacturer": "Burt's Bees",
-      "Image": "https://i5.walmartimages.com/seo/Burt-s-Bees-Moisturizing-Lip-Balm-Pomegranate-1-ct_aaaa7f81-4523-4471-b934-a334127275d7.515ce93b1adccc74c0047d7988536b63.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+      "Name": "Oral-B Pro 1000 Electric Toothbrush",
+      "Category": "Mouth & Teeth",
+      "Price": 499,
+      "Desc": "Oral-B Pro 1000 Electric Toothbrush provides superior cleaning and plaque removal.",
+      "Manufacturer": "Procter & Gamble",
+      "Image": "oralb_pro_1000_toothbrush.jpg"
     },
     {
       "id": 29,
@@ -557,6 +557,112 @@
       "Desc": "Coppertone Sport Sunscreen Lotion provides long-lasting sun protection for outdoor activities.",
       "Manufacturer": "Bayer",
       "Image": "https://m.media-amazon.com/images/I/71PzWNgKOeL.jpg"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. John Smith",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "General Physician",
+      "description": "Experienced general physician specializing in internal medicine.",
+      "fee": 700
+    },
+    {
+      "id": 2,
+      "name": "Dr. Emily Johnson",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Cardiologist",
+      "description": "Cardiologist with expertise in heart-related issues.",
+      "fee": 750
+    },
+    {
+      "id": 3,
+      "name": "Dr. Sarah Davis",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Dentist",
+      "description": "Dentist offering a wide range of dental services.",
+      "fee": 800
+    },
+    {
+      "id": 4,
+      "name": "Dr. Alice Williams",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Dermatologist",
+      "description": "Dermatologist specializing in skin and hair treatments.",
+      "fee": 300
+    },
+    {
+      "id": 5,
+      "name": "Dr. Michael Brown",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Physiotherapist",
+      "description": "Physiotherapist helping patients recover from injuries and improve mobility.",
+      "fee": 450
+    },
+    {
+      "id": 6,
+      "name": "Dr. Laura Miller",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "General Physician",
+      "description": "General physician providing comprehensive healthcare services.",
+      "fee": 550
+    },
+    {
+      "id": 7,
+      "name": "Dr. Robert Clark",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Cardiologist",
+      "description": "Cardiologist specializing in heart disease diagnosis and treatment.",
+      "fee": 600
+    },
+    {
+      "id": 8,
+      "name": "Dr. Maria Garcia",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Dentist",
+      "description": "Dentist with a focus on preventive and cosmetic dentistry.",
+      "fee": 400
+    },
+    {
+      "id": 9,
+      "name": "Dr. Susan Taylor",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "General Physician",
+      "description": "Experienced general physician specializing in family medicine.",
+      "fee": 500
+    },
+    {
+      "id": 10,
+      "name": "Dr. James Carter",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Cardiologist",
+      "description": "Cardiologist known for cutting-edge cardiac treatments.",
+      "fee": 800
+    },
+    {
+      "id": 11,
+      "name": "Dr. Emma Lewis",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Dermatologist",
+      "description": "Dermatologist offering advanced skincare solutions.",
+      "fee": 500
+    },
+    {
+      "id": 12,
+      "name": "Dr. Richard Turner",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Physiotherapist",
+      "description": "Physiotherapist with expertise in sports injuries rehabilitation.",
+      "fee": 400
+    },
+    {
+      "id": 13,
+      "name": "Dr. Laura Adams",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Dentist",
+      "description": "Dentist specializing in pediatric dentistry.",
+      "fee": 500
     }
   ]
 }
