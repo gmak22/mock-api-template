@@ -1,687 +1,1484 @@
 {
-  "medicines": [
+  "courses": [
     {
       "id": 1,
-      "Name": "Amway Nutrilite Daily",
-      "Category": "Dietary Supplements",
-      "Price": 899,
-      "Desc": "Amway Nutrilite Daily is a multivitamin and multimineral supplement that supports overall health.",
-      "Manufacturer": "Amway",
-      "Image": "https://www.amway.in/_next/image?url=https%3A%2F%2Fmedia.amway.in%2Fsys-master%2Fimages%2Fh6e%2Fh37%2F9125852872734%2FEIA.w800.h800.313504ID_1.png&w=768&q=75"
+      "image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dy3h07a5tygirigsiv3y.png",
+      "title": "React JS- Complete Guide for Frontend Web Development",
+      "description": "Learn the fundamentals of React and build interactive user interfaces and Become an expert React JS Developer. Learn HTML, CSS, JavaScript, ES6, React JS and jQuery..",
+      "instructor": "John Doe",
+      "original_price": 2999,
+      "discounted_price": 499,
+      "rating": 4.8,
+      "category": "React",
+      "students": 25000,
+      "hours": 20,
+      "demovideo": "react-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/u6gSSpfsoOQ?si=hUV1cc2nTWifMDrn",
+      "language": "English",
+      "learnings": [
+        "Understand the core concepts of React",
+        "Build reusable components for web applications",
+        "Manage state and props in React",
+        "Create a complete React application from scratch",
+        "Integrate with APIs and external data sources"
+      ],
+      "course_includes": [
+        "20 hours on-demand video",
+        "10 coding exercises",
+        "30 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of HTML, CSS, and JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources and libraries"
+      ]
     },
     {
       "id": 2,
-      "Name": "Dabur Honitus Cough Syrup",
-      "Category": "Cough, Cold, Fever",
-      "Price": 85,
-      "Desc": "Dabur Honitus Cough Syrup provides relief from cough and throat irritation.",
-      "Manufacturer": "Dabur",
-      "Image": "https://m.media-amazon.com/images/I/918pLpn6fKL.jpg"
+      "image": "https://i.ytimg.com/vi/oP571toXMqc/maxresdefault.jpg",
+      "title": "Modern JavaScript Mastery",
+      "description": "Become a JavaScript expert and learn the latest features and best practices.",
+      "instructor": "Jane Smith",
+      "original_price": 3499,
+      "discounted_price": 349,
+      "rating": 4.6,
+      "category": "JavaScript",
+      "students": 32000,
+      "hours": 18,
+      "demovideo": "js-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/jS4aFq5-91M?si=LZCY-cAfgGFEfmxM",
+      "language": "English",
+      "learnings": [
+        "Master JavaScript's core concepts and features",
+        "ES6 and modern JavaScript syntax",
+        "Asynchronous programming with Promises and async/await",
+        "Working with DOM and handling events",
+        "Creating interactive web applications"
+      ],
+      "course_includes": [
+        "18 hours on-demand video",
+        "15 coding exercises",
+        "25 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of HTML and CSS",
+        "A modern web browser",
+        "Access to a computer with an internet connection"
+      ]
     },
     {
       "id": 3,
-      "Name": "Optimum Nutrition Gold Standard 100% Whey Protein",
-      "Category": "Nutrition",
-      "Price": 2499,
-      "Desc": "Optimum Nutrition Gold Standard 100% Whey Protein is a high-quality protein supplement for muscle recovery.",
-      "Manufacturer": "Optimum Nutrition",
-      "Image": "https://assets.hyugalife.com/catalog/product/7/4/748927065725_1.jpg?compress=true&q=75&format=webp"
+      "image": "https://www.venturelessons.com/wp-content/uploads/2020/03/angular-js-online-courses-scaled.jpg",
+      "title": "Angular Web Development",
+      "description": "Build modern web applications with Angular and TypeScript.",
+      "instructor": "Maria Rodriguez",
+      "original_price": 4399,
+      "discounted_price": 549,
+      "rating": 4.7,
+      "category": "Angular",
+      "students": 18000,
+      "hours": 24,
+      "demovideo": "angular-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/3qBXWUpoPHo?si=jaWO33YoH9mJ5IAj",
+      "language": "English",
+      "learnings": [
+        "Master Angular's components, services, and modules",
+        "Create reactive web applications with Angular",
+        "Routing and navigation in Angular",
+        "REST API integration and data retrieval",
+        "Deployment and testing of Angular apps"
+      ],
+      "course_includes": [
+        "24 hours on-demand video",
+        "12 coding exercises",
+        "40 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of HTML, CSS, and JavaScript",
+        "A code editor like Visual Studio Code",
+        "Node.js and npm installed on your computer"
+      ]
     },
     {
       "id": 4,
-      "Name": "Himalaya Wellness Pure Herbs Ashvagandha",
-      "Category": "Vitamins and Minerals",
-      "Price": 150,
-      "Desc": "Himalaya Wellness Pure Herbs Ashvagandha is an herbal supplement for stress relief and vitality.",
-      "Manufacturer": "Himalaya Wellness",
-      "Image": "https://m.media-amazon.com/images/I/61eNW65rU0L._AC_UF1000,1000_QL80_.jpg"
+      "image": "https://i.ytimg.com/vi/ts1DDgJyWTk/maxresdefault.jpg",
+      "title": "HTML and CSS Essentials",
+      "description": "Learn the foundations of HTML and CSS for web development.",
+      "instructor": "Chris Johnson",
+      "original_price": 2499,
+      "discounted_price": 294,
+      "rating": 4.5,
+      "category": "HTML/CSS",
+      "students": 15000,
+      "hours": 15,
+      "demovideo": "html-css-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/uDkjZ-UjgX0?si=C80Aa2TnMDtDTCjk",
+      "language": "English",
+      "learnings": [
+        "Create structured and semantically correct HTML",
+        "Design responsive and attractive web pages with CSS",
+        "Understanding CSS layout techniques",
+        "Building a complete website with HTML and CSS"
+      ],
+      "course_includes": [
+        "15 hours on-demand video",
+        "8 coding exercises",
+        "20 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "No prior knowledge required",
+        "A text editor for writing HTML and CSS code",
+        "A computer with internet access"
+      ]
     },
     {
       "id": 5,
-      "Name": "Probiotic 10 Billion CFU Capsules",
-      "Category": "Probiotics",
-      "Price": 399,
-      "Desc": "Probiotic 10 Billion CFU Capsules promote digestive health with beneficial probiotics.",
-      "Manufacturer": "Nature's Bounty",
-      "Image": "https://m.media-amazon.com/images/I/81292ypj9FL.jpg"
+      "image": "https://i.ytimg.com/vi/7ujSgXRnyig/maxresdefault.jpg",
+      "title": "Mastering Redux Framework",
+      "description": "Become an expert in managing state with Redux and React.",
+      "instructor": "Michael Brown",
+      "original_price": 3999,
+      "discounted_price": 319,
+      "rating": 4.8,
+      "category": "Redux",
+      "students": 12000,
+      "hours": 20,
+      "demovideo": "redux-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/poQXNp9ItL4?si=UjySh9AYuutL9nsl",
+      "language": "English",
+      "learnings": [
+        "Understanding Redux architecture and principles",
+        "Integrating Redux with React applications",
+        "Managing complex application state with Redux",
+        "Redux middleware and asynchronous actions",
+        "Best practices for Redux development"
+      ],
+      "course_includes": [
+        "20 hours on-demand video",
+        "10 coding exercises",
+        "30 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of React",
+        "Familiarity with JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 6,
-      "Name": "Zyrtec Allergy Relief Tablets",
-      "Category": "Allergies",
-      "Price": 199,
-      "Desc": "Zyrtec Allergy Relief Tablets provide relief from allergy symptoms like sneezing and runny nose.",
-      "Manufacturer": "Johnson & Johnson",
-      "Image": "https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/1280x1280/products/58422/541146/16869952_FULL__00715__53249.1686224989.jpg?c=1&imbypass=on"
+      "image": "https://i.ytimg.com/vi/j89BvWz8Eag/maxresdefault.jpg",
+      "title": "TypeScript Fundamentals",
+      "description": "Learn TypeScript and build scalable and maintainable JavaScript applications.",
+      "instructor": "Sophia Clark",
+      "original_price": 2599,
+      "discounted_price": 259,
+      "rating": 4.6,
+      "category": "TypeScript",
+      "students": 14000,
+      "hours": 16,
+      "demovideo": "typescript-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/30LWjhZzg50?si=h85AxzOx8ZD_-Sfy",
+      "language": "English",
+      "learnings": [
+        "Introduction to TypeScript and its benefits",
+        "TypeScript syntax and type annotations",
+        "Working with TypeScript in JavaScript projects",
+        "Building real-world applications with TypeScript"
+      ],
+      "course_includes": [
+        "16 hours on-demand video",
+        "8 coding exercises",
+        "20 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of JavaScript",
+        "A code editor like Visual Studio Code",
+        "Node.js and npm installed on your computer",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 7,
-      "Name": "Colgate Total Toothpaste",
-      "Category": "Mouth & Teeth",
-      "Price": 79,
-      "Desc": "Colgate Total Toothpaste helps maintain oral hygiene and prevent cavities.",
-      "Manufacturer": "Colgate-Palmolive",
-      "Image": "colgate_total_toothpaste.jpg"
+      "image": "https://justpaste.it/img/f93f7af262171137157878f53af6e0a9.jpg",
+      "title": "ASP.NET Core Web Development",
+      "description": "Build modern web applications with ASP.NET Core and C#.",
+      "instructor": "David Wilson",
+      "original_price": 2399,
+      "discounted_price": 259,
+      "rating": 4.7,
+      "category": "ASP.NET Core",
+      "students": 11000,
+      "hours": 22,
+      "demovideo": "asp-net-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/BfEjDD8mWYg?si=fY5YZA2HeF_fccYq",
+      "language": "English",
+      "learnings": [
+        "Introduction to ASP.NET Core and its features",
+        "Building RESTful APIs with ASP.NET Core",
+        "Creating dynamic web applications with Razor Pages",
+        "Authentication and authorization in ASP.NET Core",
+        "Deployment and testing of ASP.NET Core apps"
+      ],
+      "course_includes": [
+        "22 hours on-demand video",
+        "12 coding exercises",
+        "35 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of C# programming",
+        "Visual Studio or Visual Studio Code installed",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 8,
-      "Name": "Refresh Tears Lubricant Eye Drops",
-      "Category": "Eye Care",
-      "Price": 299,
-      "Desc": "Refresh Tears Lubricant Eye Drops relieve dryness and irritation, keeping your eyes refreshed.",
-      "Manufacturer": "Allergan",
-      "Image": "https://5.imimg.com/data5/SELLER/Default/2022/12/HE/UZ/TL/64730033/refresh-tears-eye-drop-500x500.jpg"
+      "image": "https://i.ytimg.com/vi/h6Wzj_Aqhf8/maxresdefault.jpg",
+      "title": "Node.js for Beginners",
+      "description": "Learn Node.js and build server-side applications with JavaScript.",
+      "instructor": "Robert Taylor",
+      "original_price": 1999,
+      "discounted_price": 199,
+      "rating": 4.5,
+      "category": "Node.js",
+      "students": 18000,
+      "hours": 18,
+      "demovideo": "nodejs-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/Oe421EPjeBE?si=JaSjrayc7pOvv_8w",
+      "language": "English",
+      "learnings": [
+        "Introduction to Node.js and its use cases",
+        "Building a RESTful API with Express.js",
+        "Working with databases using Node.js",
+        "Asynchronous programming with Node.js",
+        "Deploying Node.js applications"
+      ],
+      "course_includes": [
+        "18 hours on-demand video",
+        "10 coding exercises",
+        "25 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of JavaScript",
+        "A code editor like Visual Studio Code",
+        "Node.js and npm installed on your computer",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 9,
-      "Name": "Himalaya Neem Face Wash",
-      "Category": "Cosmetics",
-      "Price": 120,
-      "Desc": "Himalaya Neem Face Wash cleanses and purifies the skin, preventing acne and pimples.",
-      "Manufacturer": "Himalaya Wellness",
-      "Image": "https://www.jiomart.com/images/product/original/490819114/himalaya-purifying-neem-face-wash-150-ml-product-images-o490819114-p490819114-0-202203151526.jpg?im=Resize=(1000,1000)"
+      "image": "https://i.ytimg.com/vi/Lw1JkmNAFA4/maxresdefault.jpg",
+      "title": "Advanced Redux Techniques",
+      "description": "Master advanced state management with Redux and React.",
+      "instructor": "Emily White",
+      "original_price": 2199,
+      "discounted_price": 249,
+      "rating": 4.9,
+      "category": "Redux",
+      "students": 9000,
+      "hours": 22,
+      "demovideo": "redux-advanced-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/poQXNp9ItL4?si=UjySh9AYuutL9nsl",
+      "language": "English",
+      "learnings": [
+        "Asynchronous actions and Redux Thunk middleware",
+        "Working with complex application state",
+        "Testing and debugging Redux applications",
+        "Implementing Redux in real-world projects",
+        "Best practices for advanced Redux development"
+      ],
+      "course_includes": [
+        "22 hours on-demand video",
+        "15 coding exercises",
+        "35 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Prior knowledge of Redux and React",
+        "Experience with asynchronous JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 10,
-      "Name": "Sensodyne Toothbrush",
-      "Category": "Mouth & Teeth",
-      "Price": 99,
-      "Desc": "Sensodyne Toothbrush is specially designed for sensitive teeth and gums.",
-      "Manufacturer": "GSK Consumer Healthcare",
-      "Image": "sensodyne_toothbrush.jpg"
+      "image": "https://i.ytimg.com/vi/j0tM7_icsnw/maxresdefault.jpg",
+      "title": "HTML5 and CSS3 Masterclass",
+      "description": "Explore the latest features and capabilities of HTML5 and CSS3.",
+      "instructor": "Sophie Brown",
+      "original_price": 3299,
+      "discounted_price": 329,
+      "rating": 4.7,
+      "category": "HTML/CSS",
+      "students": 16000,
+      "hours": 19,
+      "demovideo": "html5-css3-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/uDkjZ-UjgX0?si=C80Aa2TnMDtDTCjk",
+      "language": "English",
+      "learnings": [
+        "HTML5 semantic elements and multimedia",
+        "CSS3 transitions, animations, and flexbox",
+        "Responsive web design with media queries",
+        "Building modern web layouts and templates"
+      ],
+      "course_includes": [
+        "19 hours on-demand video",
+        "12 coding exercises",
+        "30 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of HTML and CSS",
+        "A code editor like Visual Studio Code",
+        "Access to a computer with an internet connection"
+      ]
     },
     {
       "id": 11,
-      "Name": "Bausch + Lomb Contact Lens Solution",
-      "Category": "Eye Care",
-      "Price": 249,
-      "Desc": "Bausch + Lomb Contact Lens Solution cleans and disinfects contact lenses for comfortable wear.",
-      "Manufacturer": "Bausch + Lomb",
-      "Image": "https://m.media-amazon.com/images/I/71Bl2QbCiaL.jpg"
+      "image": "https://i.pinimg.com/originals/a5/76/6a/a5766a8964a2fe89cab314da029cff33.jpg",
+      "title": "Build ASP.NET Core Web API ",
+      "description": "Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server, Authentication & Authorization | .NET 7",
+      "instructor": "Peter Johnson",
+      "original_price": 4599,
+      "discounted_price": 479,
+      "rating": 4.8,
+      "category": "ASP.NET Core",
+      "students": 7500,
+      "hours": 26,
+      "demovideo": "asp-net-mvc-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/BfEjDD8mWYg?si=fY5YZA2HeF_fccYq",
+      "language": "English",
+      "learnings": [
+        "Creating web applications with ASP.NET Core MVC",
+        "Model-View-Controller (MVC) architecture",
+        "Entity Framework Core and database integration",
+        "Authentication and authorization in MVC",
+        "Deploying ASP.NET Core MVC apps"
+      ],
+      "course_includes": [
+        "26 hours on-demand video",
+        "14 coding exercises",
+        "40 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of C# programming",
+        "Visual Studio or Visual Studio Code installed",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 12,
-      "Name": "Himalaya Herbals Protein Shampoo",
-      "Category": "Cosmetics",
-      "Price": 180,
-      "Desc": "Himalaya Herbals Protein Shampoo nourishes and strengthens your hair.",
-      "Manufacturer": "Himalaya Wellness",
-      "Image": "himalaya_protein_shampoo.jpg"
+      "image": "https://i.ytimg.com/vi/H9M02of22z4/maxresdefault.jpg",
+      "title": "The Complete Node.js Developer Course",
+      "description": "Learn Node.js by building real-world applications with Node JS, Express, MongoDB, Jest, and more!",
+      "instructor": "Alex Turner",
+      "original_price": 2499,
+      "discounted_price": 599,
+      "rating": 4.6,
+      "category": "Node.js",
+      "students": 12000,
+      "hours": 17,
+      "demovideo": "nodejs-express-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/Oe421EPjeBE?si=JaSjrayc7pOvv_8w",
+      "language": "English",
+      "learnings": [
+        "Building RESTful APIs with Node.js and Express.js",
+        "Authentication and security in Node.js",
+        "Real-time applications with WebSockets",
+        "Testing and debugging Node.js applications",
+        "Deploying Node.js and Express.js apps"
+      ],
+      "course_includes": [
+        "17 hours on-demand video",
+        "11 coding exercises",
+        "28 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of JavaScript",
+        "A code editor like Visual Studio Code",
+        "Node.js and npm installed on your computer",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 13,
-      "Name": "Cetrizine Allergy Relief Tablets",
-      "Category": "Allergies",
-      "Price": 79,
-      "Desc": "Cetrizine Allergy Relief Tablets provide relief from allergy symptoms like sneezing and itching.",
-      "Manufacturer": "Timely",
-      "Image": "https://m.media-amazon.com/images/I/71O31azI9aL.jpg"
+      "image": "https://i.ytimg.com/vi/IYI0em-xT28/maxresdefault.jpg",
+      "title": "Advanced Angular Development",
+      "description": "Master advanced concepts in Angular and build complex applications.",
+      "instructor": "Lucas Martin",
+      "original_price": 2499,
+      "discounted_price": 249,
+      "rating": 4.9,
+      "category": "Angular",
+      "students": 9500,
+      "hours": 25,
+      "demovideo": "angular-advanced-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/3qBXWUpoPHo?si=jaWO33YoH9mJ5IAj",
+      "language": "English",
+      "learnings": [
+        "Advanced Angular components and directives",
+        "RxJS and observables in Angular",
+        "Angular forms and reactive programming",
+        "Optimizing Angular applications for performance",
+        "Real-world Angular project development"
+      ],
+      "course_includes": [
+        "25 hours on-demand video",
+        "17 coding exercises",
+        "38 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Prior knowledge of Angular",
+        "Familiarity with TypeScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 14,
-      "Name": "Listerine Cool Mint Mouthwash",
-      "Category": "Mouth & Teeth",
-      "Price": 135,
-      "Desc": "Listerine Cool Mint Mouthwash kills germs and freshens breath for a clean mouth.",
-      "Manufacturer": "Johnson & Johnson",
-      "Image": "listerine_cool_mint_mouthwash.jpg"
+      "image": "https://i.ytimg.com/vi/lhNdUVh3qCc/maxresdefault.jpg",
+      "title": "Accelerated JavaScript Training",
+      "description": "Take a deep dive into JavaScript, a Must-Know Language in Web Development, with a Hands-on, Example-driven Approach",
+      "instructor": "Elena Davis",
+      "original_price": 3199,
+      "discounted_price": 399,
+      "rating": 4.7,
+      "category": "JavaScript",
+      "students": 30223,
+      "hours": 16,
+      "demovideo": "javascript-es6-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/jS4aFq5-91M?si=LZCY-cAfgGFEfmxM",
+      "language": "English",
+      "learnings": [
+        "Understanding ES6 features and syntax",
+        "Promises, async/await, and asynchronous programming",
+        "Modules and bundling with Webpack",
+        "Transpiling ES6 to ES5 for browser compatibility",
+        "Practical use cases of ES6 in web development"
+      ],
+      "course_includes": [
+        "16 hours on-demand video",
+        "10 coding exercises",
+        "24 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 15,
-      "Name": "Optrex Soothing Eye Drops",
-      "Category": "Eye Care",
-      "Price": 199,
-      "Desc": "Optrex Soothing Eye Drops relieve dry and irritated eyes for long-lasting comfort.",
-      "Manufacturer": "Optrex",
-      "Image": "https://htsplus.ng/wp-content/uploads/2021/09/optrex-removebg-preview.png"
+      "image": "https://www.tangolearn.com/wp-content/uploads/2022/08/best-typ-script-courses-1.jpg",
+      "title": "TypeScript for React Developers",
+      "description": "Learn TypeScript and how to use it with React for scalable web applications.",
+      "instructor": "Michaela Adams",
+      "original_price": 4399,
+      "discounted_price": 599,
+      "rating": 4.8,
+      "category": "TypeScript",
+      "students": 11000,
+      "hours": 18,
+      "demovideo": "typescript-react-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/30LWjhZzg50?si=h85AxzOx8ZD_-Sfy",
+      "language": "English",
+      "learnings": [
+        "Introduction to TypeScript and its benefits",
+        "TypeScript syntax and type annotations",
+        "Using TypeScript with React components",
+        "Type-safe React development with TypeScript",
+        "Real-world TypeScript and React projects"
+      ],
+      "course_includes": [
+        "18 hours on-demand video",
+        "12 coding exercises",
+        "28 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of React",
+        "Familiarity with JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 16,
-      "Name": "Dettol Hand Sanitizer",
-      "Category": "Protection",
-      "Price": 150,
-      "Desc": "Dettol Hand Sanitizer is essential for maintaining hand hygiene and preventing the spread of germs.",
-      "Manufacturer": "Reckitt Benckiser",
-      "Image": "https://needline.in/wp-content/uploads/2020/10/detol-HS-50.jpg"
+      "image": "https://i.ytimg.com/vi/ywBg3YV2PJU/maxresdefault.jpg",
+      "title": "Modern HTML & CSS From The Beginning (Including Sass)",
+      "description": "Build modern responsive websites & UIs with HTML5, CSS3 & Sass! Learn Flex & CSS Grid",
+      "instructor": "Olivia Green",
+      "original_price": 3499,
+      "discounted_price": 599,
+      "rating": 4.7,
+      "category": "HTML/CSS",
+      "students": 11500,
+      "hours": 15,
+      "demovideo": "css-animations-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/uDkjZ-UjgX0?si=C80Aa2TnMDtDTCjk",
+      "language": "English",
+      "learnings": [
+        "Understanding CSS keyframes and animation properties",
+        "Creating smooth transitions and effects",
+        "Using CSS animations for interactive web elements",
+        "Advanced CSS animations and timing functions",
+        "Practical application of animations in web projects"
+      ],
+      "course_includes": [
+        "15 hours on-demand video",
+        "8 coding exercises",
+        "22 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of HTML and CSS",
+        "A code editor like Visual Studio Code",
+        "Access to a computer with an internet connection"
+      ]
     },
     {
       "id": 17,
-      "Name": "Neutrogena Lip Balm",
-      "Category": "Handcare",
-      "Price": 125,
-      "Desc": "Neutrogena Lip Balm helps keep your lips moisturized and protected from dryness and cracking.",
-      "Manufacturer": "Neutrogena",
-      "Image": "https://m.media-amazon.com/images/I/51UjPSVqUCL.jpg"
+      "image": "https://i.ytimg.com/vi/_Kdbs4iukcM/maxresdefault.jpg",
+      "title": "The Modern JavaScript Bootcamp",
+      "description": "Learn JavaScript by building real-world apps. Includes 3 real-world projects, 80 programming challenges, and ES6/ES7!",
+      "instructor": "Mark Johnson",
+      "original_price": 3399,
+      "discounted_price": 498,
+      "rating": 4.8,
+      "category": "JavaScript",
+      "students": 9000,
+      "hours": 19,
+      "demovideo": "javascript-testing-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/jS4aFq5-91M?si=LZCY-cAfgGFEfmxM",
+      "language": "English",
+      "learnings": [
+        "Learn JavaScript by building three real-world web applications",
+        "Gain a deep understanding of how JavaScript works behind the scenes",
+        "Explore the latest cutting-edge features from ES6 and ES7",
+        "Test your skills and gain confidence by completing over 80 coding challenges"
+      ],
+      "course_includes": [
+        "19 hours on-demand video",
+        "13 coding exercises",
+        "26 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 18,
-      "Name": "MuscleBlaze Mass Gainer",
-      "Category": "Dietary Supplements",
-      "Price": 1799,
-      "Desc": "MuscleBlaze Mass Gainer is a high-calorie supplement for muscle building and weight gain.",
-      "Manufacturer": "MuscleBlaze",
-      "Image": "https://cdn.moglix.com/p/Kjqc3msXs3kGX-xxlarge.jpg"
+      "image": "https://i.ytimg.com/vi/QVk4KsJv7Ek/maxresdefault.jpg",
+      "title": "React Hooks in Depth",
+      "description": "Explore React hooks and create functional components with state and effects.",
+      "instructor": "Ella Adams",
+      "original_price": 1899,
+      "discounted_price": 299,
+      "rating": 4.7,
+      "category": "React",
+      "students": 13000,
+      "hours": 20,
+      "demovideo": "react-hooks-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/u6gSSpfsoOQ?si=hUV1cc2nTWifMDrn",
+      "language": "English",
+      "learnings": [
+        "Understanding React hooks and their advantages",
+        "Using useState, useEffect, and custom hooks",
+        "Building modern React applications with hooks",
+        "Refactoring class components to functional components",
+        "Practical applications of React hooks"
+      ],
+      "course_includes": [
+        "20 hours on-demand video",
+        "11 coding exercises",
+        "28 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of React",
+        "Familiarity with JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 19,
-      "Name": "NyQuil Cold & Flu Nighttime Relief",
-      "Category": "Cough, Cold, Fever",
-      "Price": 249,
-      "Desc": "NyQuil Cold & Flu Nighttime Relief provides relief from cold and flu symptoms for a good night's sleep.",
-      "Manufacturer": "Vicks",
-      "Image": "https://cdn.mall.adeptmind.ai/https%3A%2F%2Fassets.beauty.shoppersdrugmart.ca%2Fbb-prod-product-image%2F56100074823%2Fenfr%2F01%2Ffront%2F1600%2Fwhite.jpg_large.webp"
+      "image": "https://i.ytimg.com/vi/zRlEZ7L1xEM/maxresdefault.jpg",
+      "title": "Angular Material Design",
+      "description": "Create modern and responsive web designs with Angular Material.",
+      "instructor": "Nina Patel",
+      "original_price": 4499,
+      "discounted_price": 459,
+      "rating": 4.8,
+      "category": "Angular",
+      "students": 10000,
+      "hours": 18,
+      "demovideo": "angular-material-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/3qBXWUpoPHo?si=jaWO33YoH9mJ5IAj",
+      "language": "English",
+      "learnings": [
+        "Introduction to Angular Material components",
+        "Customizing and theming Angular Material",
+        "Building responsive and attractive web layouts",
+        "Practical usage of Angular Material in projects",
+        "Creating a complete Angular Material-based website"
+      ],
+      "course_includes": [
+        "18 hours on-demand video",
+        "9 coding exercises",
+        "24 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of Angular",
+        "Familiarity with HTML and CSS",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 20,
-      "Name": "NutriBiotic GSE Liquid Concentrate",
-      "Category": "Nutrition",
-      "Price": 799,
-      "Desc": "NutriBiotic GSE Liquid Concentrate is a dietary supplement with grapefruit seed extract for immune support.",
-      "Manufacturer": "NutriBiotic",
-      "Image": "https://i.pinimg.com/736x/72/3d/89/723d896c76ed2c9e8cbb8fb0998153d4.jpg"
+      "image": "https://i.ytimg.com/vi/BSO9C8Z-YV8/maxresdefault.jpg",
+      "title": "Advanced Node.js Development",
+      "description": "Master advanced Node.js concepts for building high-performance applications.",
+      "instructor": "Sam Robinson",
+      "original_price": 2599,
+      "discounted_price": 249,
+      "rating": 4.7,
+      "category": "Node.js",
+      "students": 8500,
+      "hours": 21,
+      "demovideo": "nodejs-advanced-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/Oe421EPjeBE?si=JaSjrayc7pOvv_8w",
+      "language": "English",
+      "learnings": [
+        "Node.js event loop and asynchronous patterns",
+        "Building scalable and efficient REST APIs",
+        "Real-time applications with WebSockets and Socket.io",
+        "Performance optimization and monitoring in Node.js",
+        "Practical projects using advanced Node.js features"
+      ],
+      "course_includes": [
+        "21 hours on-demand video",
+        "14 coding exercises",
+        "32 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of Node.js",
+        "Experience with JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 21,
-      "Name": "Iron Supplement Tablets",
-      "Category": "Vitamins and Minerals",
-      "Price": 199,
-      "Desc": "Iron Supplement Tablets provide essential iron for preventing anemia and boosting energy levels.",
-      "Manufacturer": "Nature's Way",
-      "Image": "https://m.media-amazon.com/images/I/81Dn4QHXXJL.jpg"
+      "image": "https://i.ytimg.com/vi/KQOtXYC0We8/maxresdefault.jpg",
+      "title": "Complete React Developer in 2023 (w/ Redux, Hooks, GraphQL)",
+      "description": "Updated! Become a Senior React Developer. Build a massive E-commerce app with Redux, Hooks, GraphQL, Stripe, Firebase",
+      "instructor": "Daniel Turner",
+      "original_price": 1999,
+      "discounted_price": 349,
+      "rating": 4.8,
+      "category": "React",
+      "students": 9500,
+      "hours": 22,
+      "demovideo": "react-native-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/u6gSSpfsoOQ?si=hUV1cc2nTWifMDrn",
+      "language": "English",
+      "learnings": [
+        "Introduction to React Native and its benefits",
+        "Building mobile apps with React components",
+        "Navigation and routing in React Native",
+        "Accessing device features and APIs",
+        "Publishing mobile apps to app stores"
+      ],
+      "course_includes": [
+        "22 hours on-demand video",
+        "12 coding exercises",
+        "28 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of React",
+        "Familiarity with JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 22,
-      "Name": "Culturelle Probiotic Capsules",
-      "Category": "Probiotics",
-      "Price": 1299,
-      "Desc": "Culturelle Probiotic Capsules support digestive health with probiotics for a balanced gut.",
-      "Manufacturer": "Culturelle",
-      "Image": "https://m.media-amazon.com/images/I/715+B5IMN4L.jpg"
+      "image": "https://i.ytimg.com/vi/PlbupGCBV6w/maxresdefault.jpg",
+      "title": "Advanced Javascript",
+      "description": "In only seven hours you will learn enough javascript to transform from a Junior JS Dev into a Senior JS Guru",
+      "instructor": "Liam Johnson",
+      "original_price": 2499,
+      "discounted_price": 229,
+      "rating": 4.7,
+      "category": "JavaScript",
+      "students": 11000,
+      "hours": 17,
+      "demovideo": "graphql-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/jS4aFq5-91M?si=LZCY-cAfgGFEfmxM",
+      "language": "English",
+      "learnings": [
+        "Impress interviewers with knowledge about advanced JavaScript features",
+        "Confidently Interview other JavaScript candidates",
+        "Pass stage one JavaScript telephone interviews"
+      ],
+      "course_includes": [
+        "17 hours on-demand video",
+        "10 coding exercises",
+        "22 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 23,
-      "Name": "Claritin 24-Hour Allergy Relief",
-      "Category": "Allergies",
-      "Price": 299,
-      "Desc": "Claritin 24-Hour Allergy Relief provides non-drowsy relief from allergy symptoms.",
-      "Manufacturer": "Bayer",
-      "Image": "https://www.londondrugs.com/on/demandware.static/-/Sites-londondrugs-master/default/dw52f76676/products/L2936839/large/L2936839.JPG"
+      "image": "https://i.ytimg.com/vi/Cuh79sEvWqI/maxresdefault.jpg",
+      "title": "Angular Testing and Debugging",
+      "description": "Master testing and debugging techniques for Angular applications.",
+      "instructor": "Natalie Adams",
+      "original_price": 1899,
+      "discounted_price": 219,
+      "rating": 4.8,
+      "category": "Angular",
+      "students": 9000,
+      "hours": 19,
+      "demovideo": "angular-testing-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/3qBXWUpoPHo?si=jaWO33YoH9mJ5IAj",
+      "language": "English",
+      "learnings": [
+        "Setting up testing environments for Angular",
+        "Writing unit tests and end-to-end tests",
+        "Debugging Angular code effectively",
+        "Continuous integration and test automation",
+        "Testing best practices for Angular projects"
+      ],
+      "course_includes": [
+        "19 hours on-demand video",
+        "13 coding exercises",
+        "26 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of Angular",
+        "Familiarity with TypeScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 24,
-      "Name": "Sensodyne Pronamel Toothpaste",
-      "Category": "Mouth & Teeth",
-      "Price": 120,
-      "Desc": "Sensodyne Pronamel Toothpaste helps protect enamel and reduce sensitivity.",
-      "Manufacturer": "GSK Consumer Healthcare",
-      "Image": "sensodyne_pronamel_toothpaste.jpg"
+      "image": "https://i.ytimg.com/vi/5p8e2ZkbOFU/maxresdefault.jpg",
+      "title": "The Complete SASS Course (CSS Preprocessor)",
+      "description": "SASS - Learn SASS, the most popular CSS Extension. Build modern and beautiful projects using SASS and lots of CSS",
+      "instructor": "Sophie Turner",
+      "original_price": 2999,
+      "discounted_price": 297,
+      "rating": 4.7,
+      "category": "HTML/CSS",
+      "students": 9500,
+      "hours": 18,
+      "demovideo": "html5-multimedia-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/uDkjZ-UjgX0?si=C80Aa2TnMDtDTCjk",
+      "language": "English",
+      "learnings": [
+        "Learn about what SASS is and how to write it",
+        "Install SASS Compiler",
+        "Build and style website using basics of SASS",
+        "Learn about Advanced SASS topics: Data Types, Interpolation, Loops, If Directive and more...",
+        "Build and design website based on advanced SASS",
+        "Practice a lot in CSS"
+      ],
+      "course_includes": [
+        "18 hours on-demand video",
+        "11 coding exercises",
+        "28 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of HTML and CSS",
+        "A code editor like Visual Studio Code",
+        "Access to a computer with an internet connection"
+      ]
     },
     {
       "id": 25,
-      "Name": "Biotrue Contact Lens Solution",
-      "Category": "Eye Care",
-      "Price": 249,
-      "Desc": "Biotrue Contact Lens Solution provides long-lasting moisture and keeps contact lenses comfortable.",
-      "Manufacturer": "Bausch + Lomb",
-      "Image": "https://m.media-amazon.com/images/I/71EyC20ZtxL.jpg"
+      "image": "https://i.ytimg.com/vi/h6Wzj_Aqhf8/maxresdefault.jpg",
+      "title": "Building Express.js and MongoDB Apps",
+      "description": "Create web applications with Express.js and MongoDB for data-driven projects.",
+      "instructor": "Lucas Turner",
+      "original_price": 2999,
+      "discounted_price": 349,
+      "rating": 4.8,
+      "category": "Node.js",
+      "students": 10500,
+      "hours": 20,
+      "demovideo": "express-mongodb-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/Oe421EPjeBE?si=JaSjrayc7pOvv_8w",
+      "language": "English",
+      "learnings": [
+        "Building RESTful APIs with Express.js",
+        "MongoDB database setup and integration",
+        "CRUD operations and data retrieval with Express and MongoDB",
+        "Authentication and security in data-driven apps",
+        "Real-world data-driven projects"
+      ],
+      "course_includes": [
+        "20 hours on-demand video",
+        "12 coding exercises",
+        "30 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of Node.js",
+        "Experience with JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 26,
-      "Name": "Maybelline Fit Me Matte + Poreless Foundation",
-      "Category": "Cosmetics",
-      "Price": 299,
-      "Desc": "Maybelline Fit Me Matte + Poreless Foundation gives a natural and matte finish for all-day wear.",
-      "Manufacturer": "Maybelline",
-      "Image": "maybelline_fit_me_foundation.jpg"
+      "image": "https://i.ytimg.com/vi/MNbjIvfIMo4/maxresdefault.jpg",
+      "title": "The Ultimate Redux Course 2023",
+      "description": "Master Redux from scratch with Redux core, Redux-toolkit, react-redux library. Latest Redux course 2023",
+      "instructor": "William Foster",
+      "original_price": 3099,
+      "discounted_price": 319,
+      "rating": 4.9,
+      "category": "Redux",
+      "students": 7500,
+      "hours": 21,
+      "demovideo": "redux-saga-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/poQXNp9ItL4?si=UjySh9AYuutL9nsl",
+      "language": "English",
+      "learnings": [
+        "Understanding Redux Saga and its use cases",
+        "Working with generators and effects in Redux Saga",
+        "Handling complex async flows in Redux applications",
+        "Testing and debugging Redux Saga code",
+        "Real-world applications of Redux Saga"
+      ],
+      "course_includes": [
+        "21 hours on-demand video",
+        "14 coding exercises",
+        "32 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Prior knowledge of Redux and React",
+        "Experience with asynchronous JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 27,
-      "Name": "Equate Allergy Relief Tablets",
-      "Category": "Allergies",
-      "Price": 149,
-      "Desc": "Equate Allergy Relief Tablets provide relief from common allergy symptoms.",
-      "Manufacturer": "Walmart",
-      "Image": "https://i5.walmartimages.com/seo/Equate-Allergy-Relief-Tablets-with-Diphenhydramine-Hcl-25mg-Antihistamine-365-Count_918bb62a-bc23-4487-828e-c2bd71240e91.bc7668ec144f01d312f732d32f285357.jpeg"
+      "image": "https://i.ytimg.com/vi/TndR89bQHbM/maxresdefault.jpg",
+      "title": "JavaScript Design Patterns",
+      "description": "Explore common design patterns in JavaScript for clean and maintainable code.",
+      "instructor": "Emily Davis",
+      "original_price": 3999,
+      "discounted_price": 339,
+      "rating": 4.7,
+      "category": "JavaScript",
+      "students": 9000,
+      "hours": 18,
+      "demovideo": "javascript-design-patterns-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/jS4aFq5-91M?si=LZCY-cAfgGFEfmxM",
+      "language": "English",
+      "learnings": [
+        "Understanding the principles of design patterns",
+        "Creational, structural, and behavioral design patterns",
+        "Implementing design patterns in real-world projects",
+        "Improving code quality and maintainability with patterns",
+        "Best practices for design pattern usage"
+      ],
+      "course_includes": [
+        "18 hours on-demand video",
+        "12 coding exercises",
+        "26 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 28,
-      "Name": "Oral-B Pro 1000 Electric Toothbrush",
-      "Category": "Mouth & Teeth",
-      "Price": 499,
-      "Desc": "Oral-B Pro 1000 Electric Toothbrush provides superior cleaning and plaque removal.",
-      "Manufacturer": "Procter & Gamble",
-      "Image": "oralb_pro_1000_toothbrush.jpg"
+      "image": "https://i.ytimg.com/vi/UxTTEIhJ8to/maxresdefault.jpg",
+      "title": "Angular - The Complete Guide",
+      "description": "Master Angular (formerly Angular 2) and build awesome, reactive web apps with the successor of Angular.js",
+      "instructor": "David Martin",
+      "original_price": 3499,
+      "discounted_price": 249,
+      "rating": 4.8,
+      "category": "Angular",
+      "students": 9500,
+      "hours": 16,
+      "demovideo": "angular-i18n-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/3qBXWUpoPHo?si=jaWO33YoH9mJ5IAj",
+      "language": "English",
+      "learnings": [
+        "Introduction to internationalization (i18n) in web applications",
+        "Configuring and implementing i18n in Angular",
+        "Handling multiple languages and locales in Angular",
+        "Testing and best practices for i18n in Angular",
+        "Internationalization in real Angular projects"
+      ],
+      "course_includes": [
+        "16 hours on-demand video",
+        "10 coding exercises",
+        "24 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of Angular",
+        "Familiarity with TypeScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 29,
-      "Name": "Rohto Cool Redness Relief Eye Drops",
-      "Category": "Eye Care",
-      "Price": 349,
-      "Desc": "Rohto Cool Redness Relief Eye Drops relieve redness and refresh tired eyes.",
-      "Manufacturer": "Rohto",
-      "Image": "https://images-cdn.ubuy.co.in/634e4e33f8c23b52fc39628f-rohto-cool-max-maximum-redness-relief.jpg"
+      "image": "https://i.ytimg.com/vi/KJicab4AiZg/maxresdefault.jpg",
+      "title": "HTML5 Game Development",
+      "description": "Create interactive games using HTML5, CSS3, and JavaScript.",
+      "instructor": "Sophia Turner",
+      "original_price": 3599,
+      "discounted_price": 399,
+      "rating": 4.7,
+      "category": "HTML/CSS",
+      "students": 8500,
+      "hours": 20,
+      "demovideo": "html5-games-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/uDkjZ-UjgX0?si=C80Aa2TnMDtDTCjk",
+      "language": "English",
+      "learnings": [
+        "HTML5 canvas for 2D game graphics",
+        "Animation and physics in HTML5 games",
+        "Implementing game logic and interactivity",
+        "Creating various game types and genres",
+        "Publishing games on the web"
+      ],
+      "course_includes": [
+        "20 hours on-demand video",
+        "13 coding exercises",
+        "30 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of HTML and CSS",
+        "Familiarity with JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to a computer with an internet connection"
+      ]
     },
     {
       "id": 30,
-      "Name": "Dettol Antiseptic Liquid",
-      "Category": "Protection",
-      "Price": 199,
-      "Desc": "Dettol Antiseptic Liquid is a versatile antiseptic solution for wound care and disinfection.",
-      "Manufacturer": "Reckitt Benckiser",
-      "Image": "https://ramdevproducts.com/cdn/shop/products/UTB8xRJ7pJnJXKJkSaiyq6AhwXXaW_1000x.jpg?v=1613251925"
+      "image": "https://i.ytimg.com/vi/3f6SUL6uNwA/maxresdefault.jpg",
+      "title": "Building RESTful APIs with Node.js",
+      "description": "Create RESTful APIs with Node.js for modern web and mobile applications.",
+      "instructor": "Lucas Johnson",
+      "original_price": 3599,
+      "discounted_price": 199,
+      "rating": 4.8,
+      "category": "Node.js",
+      "students": 9500,
+      "hours": 21,
+      "demovideo": "rest-api-nodejs-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/Oe421EPjeBE?si=JaSjrayc7pOvv_8w",
+      "language": "English",
+      "learnings": [
+        "Introduction to RESTful architecture and APIs",
+        "Setting up RESTful routes and controllers in Node.js",
+        "Database integration and CRUD operations",
+        "Authentication and security in RESTful APIs",
+        "Building practical RESTful services"
+      ],
+      "course_includes": [
+        "21 hours on-demand video",
+        "14 coding exercises",
+        "32 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of Node.js",
+        "Experience with JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 31,
-      "Name": "Vaseline Intensive Care Hand Lotion",
-      "Category": "Personal Care",
-      "Price": 79,
-      "Desc": "Vaseline Intensive Care Hand Lotion moisturizes and heals dry and cracked hands.",
-      "Manufacturer": "Unilever",
-      "Image": "https://m.media-amazon.com/images/I/71OydBFBpJL.jpg"
+      "image": "https://www.venturelessons.com/wp-content/uploads/2020/03/best-typescript-courses-scaled.jpg",
+      "title": "Advanced TypeScript Development",
+      "description": "Master advanced TypeScript features for scalable web applications.",
+      "instructor": "Michael Turner",
+      "original_price": 2899,
+      "discounted_price": 249,
+      "rating": 4.9,
+      "category": "TypeScript",
+      "students": 8000,
+      "hours": 20,
+      "demovideo": "typescript-advanced-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/30LWjhZzg50?si=h85AxzOx8ZD_-Sfy",
+      "language": "English",
+      "learnings": [
+        "Advanced TypeScript types and type inference",
+        "Working with generics and conditional types",
+        "TypeScript decorators and metadata reflection",
+        "TypeScript in complex web projects",
+        "Real-world applications of advanced TypeScript"
+      ],
+      "course_includes": [
+        "20 hours on-demand video",
+        "12 coding exercises",
+        "28 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of TypeScript",
+        "Familiarity with JavaScript and web development",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 32,
-      "Name": "ON Serious Mass Gainer",
-      "Category": "Dietary Supplements",
-      "Price": 2599,
-      "Desc": "ON Serious Mass Gainer is a high-calorie supplement for bulking and muscle growth.",
-      "Manufacturer": "Optimum Nutrition",
-      "Image": "https://m.media-amazon.com/images/I/71Fz1KQPXrL._SX679_PIbundle-2,TopRight,0,0_SX679SY675SH20_.jpg"
+      "image": "https://i.pinimg.com/736x/03/e7/ff/03e7ffb29cc4eb99d9d3c7d6329b3027.jpg",
+      "title": "ASP.NET Core MVC Development",
+      "description": "Build web applications with ASP.NET Core MVC for the modern web.",
+      "instructor": "Jennifer Martinez",
+      "original_price": 2499,
+      "discounted_price": 249,
+      "rating": 4.8,
+      "category": "ASP.NET Core",
+      "students": 22403,
+      "hours": 22,
+      "demovideo": "asp-net-core-mvc-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/BfEjDD8mWYg?si=fY5YZA2HeF_fccYq",
+      "language": "English",
+      "learnings": [
+        "Introduction to ASP.NET Core and MVC architecture",
+        "Creating controllers, views, and models in ASP.NET Core",
+        "Routing and middleware in ASP.NET Core",
+        "Authentication and security in web applications",
+        "Building practical web projects with ASP.NET Core MVC"
+      ],
+      "course_includes": [
+        "22 hours on-demand video",
+        "15 coding exercises",
+        "30 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of C# and .NET",
+        "Experience with web development",
+        "A code editor like Visual Studio",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 33,
-      "Name": "Theraflu Cold & Flu Relief",
-      "Category": "Cough, Cold, Fever",
-      "Price": 189,
-      "Desc": "Theraflu Cold & Flu Relief provides relief from cold and flu symptoms.",
-      "Manufacturer": "GlaxoSmithKline",
-      "Image": "https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/bp-theraflu/en_US/products/00300678132080_C1N1.jpg?auto=formatg"
+      "image": "https://external-preview.redd.it/kEPk417uFhfsbswFj2wB1gWXR4ZeaiejMKpNwbwkvX4.jpg?auto=webp&s=9b6d4e29bf5a8dbb584823661318e855a3b692bf",
+      "title": "React Native with Redux",
+      "description": "Build cross-platform mobile apps with React Native and Redux.",
+      "instructor": "Daniel Foster",
+      "original_price": 2499,
+      "discounted_price": 749,
+      "rating": 4.9,
+      "category": "React",
+      "students": 7500,
+      "hours": 24,
+      "demovideo": "react-native-redux-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/u6gSSpfsoOQ?si=hUV1cc2nTWifMDrn",
+      "language": "English",
+      "learnings": [
+        "Introduction to React Native and Redux integration",
+        "State management with Redux in mobile apps",
+        "Async actions and middleware in Redux",
+        "Building complete mobile applications",
+        "Publishing mobile apps to app stores"
+      ],
+      "course_includes": [
+        "24 hours on-demand video",
+        "16 coding exercises",
+        "36 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of React and Redux",
+        "Familiarity with JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 34,
-      "Name": "Garden of Life Organic Protein Powder",
-      "Category": "Nutrition",
-      "Price": 1599,
-      "Desc": "Garden of Life Organic Protein Powder is a plant-based protein source for athletes and fitness enthusiasts.",
-      "Manufacturer": "Garden of Life",
-      "Image": "https://m.media-amazon.com/images/I/712Hilh7xlL.jpg"
+      "image": "https://miro.medium.com/v2/resize:fit:1000/1*i6sXrk_guOE_K0UWHBTgLg.png",
+      "title": "Node JS: Advanced Concepts",
+      "description": "Get advanced with Node.Js! Learn caching with Redis, speed up through clustering, and add image upload with S3 and Node!",
+      "instructor": "Lucy Turner",
+      "original_price": 4599,
+      "discounted_price": 499,
+      "rating": 4.9,
+      "category": "Node.js",
+      "students": 8200,
+      "hours": 26,
+      "demovideo": "full-stack-mern-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/Oe421EPjeBE?si=JaSjrayc7pOvv_8w",
+      "language": "English",
+      "learnings": [
+        "Building RESTful APIs with Node.js and Express",
+        "Creating responsive frontends with React",
+        "MongoDB database setup and integration",
+        "Authentication and authorization in MERN apps",
+        "Deploying MERN apps to the cloud"
+      ],
+      "course_includes": [
+        "26 hours on-demand video",
+        "18 coding exercises",
+        "40 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of JavaScript and web development",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 35,
-      "Name": "Nature Made Calcium Magnesium Zinc Tablets",
-      "Category": "Vitamins and Minerals",
-      "Price": 499,
-      "Desc": "Nature Made Calcium Magnesium Zinc Tablets support bone health and overall well-being.",
-      "Manufacturer": "Nature Made",
-      "Image": "https://s3.images-iherb.com/ndm/ndm01893/y/21.jpg"
+      "image": "https://creativetricks24.com/wp-content/uploads/2022/02/HTML-for-Web-Development-Basics.png",
+      "title": "Mastering CSS Grid Layout",
+      "description": "Learn how to create complex, responsive layouts with CSS Grid.",
+      "instructor": "Sophia Turner",
+      "original_price": 3299,
+      "discounted_price": 399,
+      "rating": 4.7,
+      "category": "HTML/CSS",
+      "students": 7800,
+      "hours": 14,
+      "demovideo": "css-grid-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/uDkjZ-UjgX0?si=C80Aa2TnMDtDTCjk",
+      "language": "English",
+      "learnings": [
+        "Understanding CSS Grid fundamentals",
+        "Creating grid layouts with grid-template-areas",
+        "Media queries and responsive design with CSS Grid",
+        "Practical examples of complex grid layouts",
+        "Optimizing web design with CSS Grid"
+      ],
+      "course_includes": [
+        "14 hours on-demand video",
+        "9 coding exercises",
+        "20 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of HTML and CSS",
+        "A code editor like Visual Studio Code",
+        "Access to a computer with an internet connection"
+      ]
     },
     {
       "id": 36,
-      "Name": "Align Probiotic Supplement",
-      "Category": "Probiotics",
-      "Price": 899,
-      "Desc": "Align Probiotic Supplement helps maintain a healthy digestive balance with beneficial probiotics.",
-      "Manufacturer": "Procter & Gamble",
-      "Image": "https://m.media-amazon.com/images/I/815Cl1Mzg1L.jpg"
+      "image": "https://www.venturelessons.com/wp-content/uploads/2020/03/best-react-courses-scaled.jpg",
+      "title": "React Router and Navigation",
+      "description": "Master routing and navigation in React applications with React Router.",
+      "instructor": "Daniel Foster",
+      "original_price": 3499,
+      "discounted_price": 495,
+      "rating": 4.8,
+      "category": "React",
+      "students": 9300,
+      "hours": 16,
+      "demovideo": "react-router-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/u6gSSpfsoOQ?si=hUV1cc2nTWifMDrn",
+      "language": "English",
+      "learnings": [
+        "Introduction to React Router and its features",
+        "Setting up routes and navigation in React",
+        "Route parameters and query strings",
+        "Nested routes and dynamic routing",
+        "Practical usage of React Router in projects"
+      ],
+      "course_includes": [
+        "16 hours on-demand video",
+        "10 coding exercises",
+        "22 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of React",
+        "Familiarity with JavaScript",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 37,
-      "Name": "Allegra Allergy 24-Hour Tablets",
-      "Category": "Allergies",
-      "Price": 299,
-      "Desc": "Allegra Allergy 24-Hour Tablets provide long-lasting relief from allergy symptoms.",
-      "Manufacturer": "Sanofi",
-      "Image": "https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/1280x1280/products/885/1618/a2be55b6-9b94-464f-ae86-f18aae09bfd7_1.acecc05daa175f33b53965ab215cfb6a__34812.1656615013.jpg?c=1&imbypass=on"
+      "image": "https://i.ytimg.com/vi/5JFrFM3pj5s/maxresdefault.jpg",
+      "title": "Javascript for Beginners",
+      "description": "Learn javascript online and supercharge your web design with this Javascript for beginners training course.",
+      "instructor": "Liam Johnson",
+      "original_price": 2599,
+      "discounted_price": 329,
+      "rating": 4.8,
+      "category": "JavaScript",
+      "students": 9600,
+      "hours": 18,
+      "demovideo": "rxjs-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/jS4aFq5-91M?si=LZCY-cAfgGFEfmxM",
+      "language": "English",
+      "learnings": [
+        "Extensive, informative and interesting video lecture",
+        "Complete Code demonstrated in lecture",
+        "Lab Exercises",
+        "Lab Solution Sets"
+      ],
+      "course_includes": [
+        "18 hours on-demand video",
+        "12 coding exercises",
+        "24 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 38,
-      "Name": "Ocusoft Lid Scrub Eyelid Cleansing Wipes",
-      "Category": "Eye Care",
-      "Price": 129,
-      "Desc": "Ocusoft Lid Scrub Eyelid Cleansing Wipes help clean and soothe irritated eyelids.",
-      "Manufacturer": "Ocusoft",
-      "Image": "https://m.media-amazon.com/images/I/81SCm2qg79L._AC_UF1000,1000_QL80_.jpg"
+      "image": "https://i.ytimg.com/vi/wwcJMrwu7Ps/maxresdefault.jpg",
+      "title": "JavaScript - Basics to Advanced step by step",
+      "description": "A perfect JavaScript course for all those who want to learn and master JavaScript programming skills right from scratch.",
+      "instructor": "Emily Davis",
+      "original_price": 2999,
+      "discounted_price": 219,
+      "rating": 4.7,
+      "category": "JavaScript",
+      "students": 8400,
+      "hours": 19,
+      "demovideo": "vuejs-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/jS4aFq5-91M?si=LZCY-cAfgGFEfmxM",
+      "language": "English",
+      "learnings": [
+        "Basics of JavaScript (Data types, Loops, Arrays, Objects, Functions, etc)",
+        "Introduction to Document Object Model(DOM) and Browser Object Model(BOM) in Java",
+        "OOPs concepts in JavaScript",
+        "Working with jQuery"
+      ],
+      "course_includes": [
+        "19 hours on-demand video",
+        "13 coding exercises",
+        "26 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "A basic understanding of HTML and CSS",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 39,
-      "Name": "Blink Tears Lubricating Eye Drops",
-      "Category": "Eye Care",
-      "Price": 199,
-      "Desc": "Blink Tears Lubricating Eye Drops provide long-lasting relief from dry and irritated eyes.",
-      "Manufacturer": "Abbott",
-      "Image": "https://images-cdn.ubuy.co.in/643269ae9cf4d325a9483a7b-blink-tears-lubricating-eye-drops-dry.jpg"
+      "image": "https://external-preview.redd.it/NdOn4pvJxI2wHIPeCLbAS7eOoeFHocDm-IpGUWb0Nb4.jpg?auto=webp&s=c1fc7ea2562b08e6ebe5515b1a1f005ca18fbfab",
+      "title": "Angular Crash Course for Busy Developers",
+      "description": "Have limited time to learn Angular 4 (Angular 2+)? Take this course and learn Angular in 10 hours!",
+      "instructor": "David Martin",
+      "original_price": 2499,
+      "discounted_price": 259,
+      "rating": 4.8,
+      "category": "Angular",
+      "students": 8200,
+      "hours": 17,
+      "demovideo": "ngrx-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/3qBXWUpoPHo?si=jaWO33YoH9mJ5IAj",
+      "language": "English",
+      "learnings": [
+        "Master the essential Angular concepts",
+        "Troubleshoot common runtime errors",
+        "Write cleaner, more maintainable code"
+      ],
+      "course_includes": [
+        "17 hours on-demand video",
+        "10 coding exercises",
+        "22 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic familiarity with HTML, CSS and JavaScript",
+        "No prior knowledge of earlier versions of Angular is required"
+      ]
     },
     {
       "id": 40,
-      "Name": "Lifebuoy Hand Wash",
-      "Category": "Protection",
-      "Price": 49,
-      "Desc": "Lifebuoy Hand Wash kills germs and helps maintain hand hygiene.",
-      "Manufacturer": "Unilever",
-      "Image": "https://m.media-amazon.com/images/I/513IGMgoadL.jpg"
+      "image": "https://www.webtrainingroom.com/images/aspnet-mvc-course.png",
+      "title": "Building APIs with ASP.NET Core",
+      "description": "Create RESTful APIs with ASP.NET Core for modern web and mobile applications.",
+      "instructor": "Jennifer Martinez",
+      "original_price": 1799,
+      "discounted_price": 229,
+      "rating": 4.8,
+      "category": "ASP.NET Core",
+      "students": 8800,
+      "hours": 20,
+      "demovideo": "asp-net-core-api-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/BfEjDD8mWYg?si=fY5YZA2HeF_fccYq",
+      "language": "English",
+      "learnings": [
+        "Introduction to RESTful architecture and APIs",
+        "Setting up RESTful routes and controllers in ASP.NET Core",
+        "Database integration and CRUD operations",
+        "Authentication and security in RESTful APIs",
+        "Building practical RESTful services"
+      ],
+      "course_includes": [
+        "20 hours on-demand video",
+        "14 coding exercises",
+        "28 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of C# and .NET",
+        "Experience with web development",
+        "A code editor like Visual Studio",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 41,
-      "Name": "Aveeno Daily Moisturizing Lotion",
-      "Category": "Personal Care",
-      "Price": 299,
-      "Desc": "Aveeno Daily Moisturizing Lotion keeps hands soft and moisturized.",
-      "Manufacturer": "Johnson & Johnson",
-      "Image": "https://www.healthurwealth.com/UploadFiles/605369046.jpg"
+      "image": "https://i.ytimg.com/vi/6lzs7E7Ym0k/maxresdefault.jpg",
+      "title": "The Complete JavaScript Course 2023: From Zero to Expert!",
+      "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+      "instructor": "Natalie Adams",
+      "original_price": 3199,
+      "discounted_price": 459,
+      "rating": 4.7,
+      "category": "JavaScript",
+      "students": 8000,
+      "hours": 19,
+      "demovideo": "graphql-apollo-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/jS4aFq5-91M?si=LZCY-cAfgGFEfmxM",
+      "language": "English",
+      "learnings": [
+        "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs",
+        "How to architect your code using flowcharts and common patterns",
+        "Modern tools for 2022 and beyond: NPM, Parcel, Babel and ES6 modules",
+        "Practice your skills with 50+ challenges and assignments (solutions included)",
+        "Get fast and friendly support in the Q&A area"
+      ],
+      "course_includes": [
+        "19 hours on-demand video",
+        "13 coding exercises",
+        "26 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of JavaScript and web development",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     },
     {
       "id": 42,
-      "Name": "GNC Mega Men Multivitamin",
-      "Category": "Dietary Supplements",
-      "Price": 1199,
-      "Desc": "GNC Mega Men Multivitamin provides essential vitamins and minerals for men's health.",
-      "Manufacturer": "GNC",
-      "Image": "https://www.gnc.com/dw/image/v2/BBLB_PRD/on/demandware.static/-/Sites-master-catalog-gnc/default/dw8ea337c4/hi-res/201722_GNC_Mega_Men_Energy_&_Metabolism_180ct_Bottle.jpg?sw=480&sh=480&sm=fit"
-    },
-    {
-      "id": 43,
-      "Name": "Mucinex Fast-Max Cold & Flu",
-      "Category": "Cough, Cold, Fever",
-      "Price": 349,
-      "Desc": "Mucinex Fast-Max Cold & Flu provides fast relief from cold and flu symptoms.",
-      "Manufacturer": "Reckitt Benckiser",
-      "Image": "https://m.media-amazon.com/images/I/718GEoAJRRL.jpg"
-    },
-    {
-      "id": 44,
-      "Name": "Orgain Organic Protein Powder",
-      "Category": "Nutrition",
-      "Price": 1999,
-      "Desc": "Orgain Organic Protein Powder is a plant-based protein source for fitness enthusiasts.",
-      "Manufacturer": "Orgain",
-      "Image": "https://m.media-amazon.com/images/I/417ScjHVzWL._SX300_SY300_QL70_FMwebp_.jpg"
-    },
-    {
-      "id": 45,
-      "Name": "Nature's Bounty Calcium Supplement",
-      "Category": "Vitamins and Minerals",
-      "Price": 799,
-      "Desc": "Nature's Bounty Calcium Supplement supports bone health and strong teeth.",
-      "Manufacturer": "Nature's Bounty",
-      "Image": "https://images-eu.ssl-images-amazon.com/images/I/41No7ftxShL._AC_UL600_SR600,600_.jpg"
-    },
-    {
-      "id": 46,
-      "Name": "Renew Life Ultimate Flora Probiotic",
-      "Category": "Probiotics",
-      "Price": 1499,
-      "Desc": "Renew Life Ultimate Flora Probiotic supports digestive and immune health with probiotics.",
-      "Manufacturer": "Renew Life",
-      "Image": "https://m.media-amazon.com/images/I/814GT-3eEOL._AC_UF350,350_QL80_.jpg"
-    },
-    {
-      "id": 47,
-      "Name": "Benadryl Allergy Relief",
-      "Category": "Allergies",
-      "Price": 149,
-      "Desc": "Benadryl Allergy Relief provides fast relief from allergy symptoms like itching and sneezing.",
-      "Manufacturer": "Benadryl",
-      "Image": "https://images-its.chemistdirect.co.uk/Benadryl-Allergy-Relief-Capsules.jpg?o=mGg6YUo0WNCNMhWor$T1IxzJW0Ij&V=7@g4&w=800&h=800"
-    },
-    {
-      "id": 48,
-      "Name": "Afrin Nasal Spray",
-      "Category": "Allergies",
-      "Price": 129,
-      "Desc": "Afrin Nasal Spray provides fast relief from nasal congestion due to allergies.",
-      "Manufacturer": "Bayer",
-      "Image": "https://m.media-amazon.com/images/I/71a9XtDFopL.jpg"
-    },
-    {
-      "id": 49,
-      "Name": "Similasan Dry Eye Relief Eye Drops",
-      "Category": "Eye Care",
-      "Price": 399,
-      "Desc": "Similasan Dry Eye Relief Eye Drops provide natural relief from dry and irritated eyes.",
-      "Manufacturer": "Similasan",
-      "Image": "https://www.amconlabs.com/customers/images/jz8080.jpg"
-    },
-    {
-      "id": 50,
-      "Name": "Hand Sanitizer Gel",
-      "Category": "Protection",
-      "Price": 69,
-      "Desc": "Hand Sanitizer Gel is essential for on-the-go hand hygiene and germ protection.",
-      "Manufacturer": "Savlon",
-      "Image": "https://m.media-amazon.com/images/I/31C0ww9xSgL.jpg"
-    },
-    {
-      "id": 51,
-      "Name": "Eucerin Advanced Repair Lotion",
-      "Category": "Skin Care",
-      "Price": 129,
-      "Desc": "Eucerin Advanced Repair Lotion provides intensive moisture for dry and sensitive skin.",
-      "Manufacturer": "Eucerin",
-      "Image": "https://m.media-amazon.com/images/I/5187PPemcvL.jpg"
-    },
-    {
-      "id": 52,
-      "Name": "Centrum Multivitamin Tablets",
-      "Category": "Vitamins and Minerals",
-      "Price": 899,
-      "Desc": "Centrum Multivitamin Tablets provide essential vitamins and minerals for overall health.",
-      "Manufacturer": "Pfizer",
-      "Image": "https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/bp-centrum-v3/en_IN/media/Centrum-Women.jpg?auto=format"
-    },
-    {
-      "id": 53,
-      "Name": "Nasacort Allergy 24HR Nasal Spray",
-      "Category": "Allergies",
-      "Price": 159,
-      "Desc": "Nasacort Allergy 24HR Nasal Spray provides long-lasting relief from nasal allergy symptoms.",
-      "Manufacturer": "Sanofi",
-      "Image": "https://m.media-amazon.com/images/I/81-HHcxy1wL.jpg"
-    },
-    {
-      "id": 54,
-      "Name": "Aveeno Positively Radiant Moisturizer",
-      "Category": "Skin Care",
-      "Price": 199,
-      "Desc": "Aveeno Positively Radiant Moisturizer brightens and evens skin tone for a radiant complexion.",
-      "Manufacturer": "Johnson & Johnson",
-      "Image": "https://m.media-amazon.com/images/I/719H6EyLZpL.jpg"
-    },
-    {
-      "id": 55,
-      "Name": "Nature's Bounty Fish Oil Softgels",
-      "Category": "Nutrition",
-      "Price": 299,
-      "Desc": "Nature's Bounty Fish Oil Softgels support heart and joint health with omega-3 fatty acids.",
-      "Manufacturer": "Nature's Bounty",
-      "Image": "https://res.cloudinary.com/raffeldeals/image/fetch/https://www.raffeldeals.com/media/21682/catalog/0026367-systane-icaps-multivitamin-coated-tablets.jpg?size=256"
-    },
-    {
-      "id": 56,
-      "Name": "Bepanthen Antiseptic Cream",
-      "Category": "Skin Care",
-      "Price": 79,
-      "Desc": "Bepanthen Antiseptic Cream is for wound care and protection against infection.",
-      "Manufacturer": "Bayer",
-      "Image": "https://ccpharmacy.com.au/media/com_hikashop/upload/medication/9310041900643-front.jpg"
-    },
-    {
-      "id": 57,
-      "Name": "Emergen-C Vitamin C Powder",
-      "Category": "Vitamins and Minerals",
-      "Price": 249,
-      "Desc": "Emergen-C Vitamin C Powder provides a boost of vitamin C for immune support.",
-      "Manufacturer": "Pfizer",
-      "Image": "https://target.scene7.com/is/image/Target/GUEST_3aff5906-a095-4a73-a098-4ece906fd08e?wid=488&hei=488&fmt=pjpeg"
-    },
-    {
-      "id": 58,
-      "Name": "Flonase Allergy Relief Nasal Spray",
-      "Category": "Allergies",
-      "Price": 199,
-      "Desc": "Flonase Allergy Relief Nasal Spray provides relief from allergy symptoms like sneezing and congestion.",
-      "Manufacturer": "GlaxoSmithKline",
-      "Image": "https://images-cdn.ubuy.ae/64e9615189d62b0c8e4c5397-flonase-24-hour-non-drowsy-decongestant.jpg"
-    },
-    {
-      "id": 59,
-      "Name": "CeraVe Moisturizing Cream",
-      "Category": "Skin Care",
-      "Price": 149,
-      "Desc": "CeraVe Moisturizing Cream hydrates and restores the skin's natural barrier.",
-      "Manufacturer": "CeraVe",
-      "Image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products-v4/moisturizing-cream/cerave_moisturizing_cream_16oz_jar_front-700x875-v3.jpg?rev=db6e3c22250e4928bc749dd2c207de5b&w=500&hash=6F959AC16DA324FFB9DCE0C5BFDC8AD5"
-    },
-    {
-      "id": 60,
-      "Name": "SmartyPants Kids Complete Gummy Vitamins",
-      "Category": "Vitamins and Minerals",
-      "Price": 199,
-      "Desc": "SmartyPants Kids Complete Gummy Vitamins provide essential nutrients for children's growth.",
-      "Manufacturer": "SmartyPants",
-      "Image": "https://images-cdn.ubuy.co.in/64d5c79c2a4c1b4cc76a2562-smartypants-kids-formula-multivitamin.jpg"
-    },
-    {
-      "id": 61,
-      "Name": "Zyrtec Children's Allergy Syrup",
-      "Category": "Allergies",
-      "Price": 129,
-      "Desc": "Zyrtec Children's Allergy Syrup provides relief from allergy symptoms for kids.",
-      "Manufacturer": "Johnson & Johnson",
-      "Image": "https://m.media-amazon.com/images/I/71f1odTdRnL.jpg"
-    },
-    {
-      "id": 62,
-      "Name": "Coppertone Sport Sunscreen Lotion",
-      "Category": "Sun Care",
-      "Price": 179,
-      "Desc": "Coppertone Sport Sunscreen Lotion provides long-lasting sun protection for outdoor activities.",
-      "Manufacturer": "Bayer",
-      "Image": "https://m.media-amazon.com/images/I/71PzWNgKOeL.jpg"
-    }
-  ],
-  "doctors": [
-    {
-      "id": 1,
-      "name": "Dr. John Smith",
-      "image": "https://cdn.create.vista.com/api/media/medium/115968882/stock-photo-male-doctor-with-stethoscope-and-clipboard",
-
-      "category": "General Physician",
-      "description": "Experienced general physician specializing in internal medicine.",
-      "fee": 700
-    },
-    {
-      "id": 2,
-      "name": "Dr. Emily Johnson",
-      "image": "https://img.freepik.com/free-photo/female-doctor-hospital-with-stethoscope_23-2148827774.jpg",
-
-      "category": "Cardiologist",
-      "description": "Cardiologist with expertise in heart-related issues.",
-      "fee": 750
-    },
-    {
-      "id": 3,
-      "name": "Dr. Sarah Davis",
-      "image": "https://img.freepik.com/premium-photo/pleased-young-female-doctor-wearing-medical-robe_521733-9647.jpg",
-      "category": "Dentist",
-      "description": "Dentist offering a wide range of dental services.",
-      "fee": 800
-    },
-    {
-      "id": 4,
-      "name": "Dr. Alice Williams",
-      "image": "https://img.freepik.com/free-photo/medium-shot-doctor-with-stethoscope_23-2148816188.jpg",
-      "category": "Dermatologist",
-      "description": "Dermatologist specializing in skin and hair treatments.",
-      "fee": 300
-    },
-    {
-      "id": 5,
-      "name": "Dr. Michael Brown",
-      "image": "https://img.freepik.com/free-photo/male-doctor-portrait-with-medical-mask_23-2148947586.jpg",
-      "category": "Physiotherapist",
-      "description": "Physiotherapist helping patients recover from injuries and improve mobility.",
-      "fee": 450
-    },
-    {
-      "id": 6,
-      "name": "Dr. Laura Miller",
-      "image": "https://img.freepik.com/premium-photo/medical-concept-indian-beautiful-female-doctor-white-coat-with-stethoscope-waist-up-medical-student-woman-hospital-worker-looking-camera-smiling-studio-blue-background_185696-621.jpg",
-      "category": "General Physician",
-      "description": "General physician providing comprehensive healthcare services.",
-      "fee": 550
-    },
-    {
-      "id": 7,
-      "name": "Dr. Robert Clark",
-      "image": "https://img.freepik.com/free-photo/medium-shot-doctor-wearing-mask-indoors_23-2148816202.jpg?size=626&ext=jpg&ga=GA1.1.270366329.1690118250&semt=sph",
-      "category": "Cardiologist",
-      "description": "Cardiologist specializing in heart disease diagnosis and treatment.",
-      "fee": 600
-    },
-    {
-      "id": 8,
-      "name": "Dr. Maria Garcia",
-      "image": "https://img.freepik.com/free-photo/cheerful-pretty-doctor_23-2147648677.jpg?size=626&ext=jpg&ga=GA1.1.270366329.1690118250&semt=ais",
-      "category": "Dentist",
-      "description": "Dentist with a focus on preventive and cosmetic dentistry.",
-      "fee": 400
-    },
-    {
-      "id": 9,
-      "name": "Dr. Susan Taylor",
-      "image": "https://img.freepik.com/free-photo/doctor-getting-ready-vaccine-patient_23-2148920140.jpg?size=626&ext=jpg&ga=GA1.1.270366329.1690118250&semt=sph",
-      "category": "General Physician",
-      "description": "Experienced general physician specializing in family medicine.",
-      "fee": 500
-    },
-    {
-      "id": 10,
-      "name": "Dr. James Carter",
-      "image": "https://img.freepik.com/free-photo/medium-shot-doctor-wearing-mask_23-2148868090.jpg?size=626&ext=jpg&ga=GA1.1.270366329.1690118250&semt=sph",
-      "category": "Cardiologist",
-      "description": "Cardiologist known for cutting-edge cardiac treatments.",
-      "fee": 800
-    },
-    {
-      "id": 11,
-      "name": "Dr. Emma Lewis",
-      "image": "https://img.freepik.com/free-photo/medium-shot-woman-with-mask-writing_23-2148767259.jpg?size=626&ext=jpg&ga=GA1.1.270366329.1690118250&semt=sph",
-
-      "category": "Dermatologist",
-      "description": "Dermatologist offering advanced skincare solutions.",
-      "fee": 500
-    },
-    {
-      "id": 12,
-      "name": "Dr. Richard Turner",
-      "image": "https://img.freepik.com/free-photo/close-up-doctor-holding-syringe_23-2148816240.jpg?size=626&ext=jpg&ga=GA1.1.270366329.1690118250&semt=sph",
-      "category": "Physiotherapist",
-      "description": "Physiotherapist with expertise in sports injuries rehabilitation.",
-      "fee": 400
-    },
-    {
-      "id": 13,
-      "name": "Dr. Laura Adams",
-      "image": "https://img.freepik.com/free-photo/portrait-male-nurse-wearing-gloves-mask_23-2148535633.jpg?size=626&ext=jpg&ga=GA1.1.270366329.1690118250&semt=sph",
-      "category": "Dentist",
-      "description": "Dentist specializing in pediatric dentistry.",
-      "fee": 500
-    },
-    {
-      "id": 14,
-      "name": "Dr. Sumit Taylor",
-      "image": "https://img.freepik.com/free-photo/handsome-elderly-doctor-uniform_144627-1185.jpg?size=626&ext=jpg&ga=GA1.1.270366329.1690118250&semt=sph",
-      "category": "General Physician",
-      "description": "Experienced general physician specializing in family medicine.",
-      "fee": 500
-    },
-    {
-      "id": 15,
-      "name": "Dr. Emily Carter",
-      "image": "https://img.freepik.com/free-photo/smiling-young-woman-holding-stethoscope_23-2148396717.jpg?size=626&ext=jpg&ga=GA1.1.270366329.1690118250&semt=sph",
-      "category": "Cardiologist",
-      "description": "Cardiologist with expertise in heart-related issues.",
-      "fee": 750
+      "image": "https://www.aivanet.com/wp-content/uploads/2019/07/Know-About-the-Future-of-Node-JS-Development.jpg",
+      "title": "Learn and Understand NodeJS",
+      "description": "Dive deep under the hood of NodeJS. Learn V8, Express, the MEAN stack, core Javascript concepts, and more.",
+      "instructor": "William Foster",
+      "original_price": 2399,
+      "discounted_price": 459,
+      "rating": 4.8,
+      "category": "Node.js",
+      "students": 8500,
+      "hours": 20,
+      "demovideo": "docker-kubernetes-demo.mp4",
+      "fullvideo": "https://www.youtube.com/embed/Oe421EPjeBE?si=JaSjrayc7pOvv_8w",
+      "language": "English",
+      "learnings": [
+        "Introduction to Docker containers and images",
+        "Container orchestration with Kubernetes",
+        "Creating, deploying, and managing containerized applications",
+        "Scaling and load balancing with Kubernetes",
+        "Real-world use cases of Docker and Kubernetes"
+      ],
+      "course_includes": [
+        "20 hours on-demand video",
+        "14 coding exercises",
+        "30 articles",
+        "Access on mobile and TV",
+        "Certificate of completion"
+      ],
+      "requirements": [
+        "Basic knowledge of web development and server deployment",
+        "A code editor like Visual Studio Code",
+        "Access to the internet for resources"
+      ]
     }
   ]
 }
