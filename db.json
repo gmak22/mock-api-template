@@ -10,7 +10,7 @@
       "skills": ["HTML", "CSS", "JavaScript"],
       "hourly_rate": 25,
       "profile_picture": "profile1.jpg",
-			"isBooked" : false
+      "isBooked" : false
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "skills": ["Photoshop", "Illustrator"],
       "hourly_rate": 30,
       "profile_picture": "profile2.jpg",
-			"isBooked" : true
+      "isBooked" : true
     }
   ]
 }
