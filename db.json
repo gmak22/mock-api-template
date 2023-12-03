@@ -5,6 +5,53 @@
       "name": "Makarand Gijam",
       "email": "mak@gmail.com",
       "password": "mak"
+    },
+    {
+      "id": 2,
+      "name": "Tony Stark",
+      "email": "tony@gmail.com",
+      "password": "tony"
+    },
+    {
+      "id": 3,
+      "name": "Steve Jobs",
+      "email": "steve@gmail.com",
+      "password": "steve"
+    },
+    {
+      "id": 4,
+      "name": "John Smith",
+      "email": "john@gmail.com",
+      "password": "john"
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "userId": 1,
+      "weight": 54,
+      "heightFt": 6,
+      "heightInch": 2,
+      "BMI": 15.28,
+      "status": "Underweight"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "weight": 46,
+      "heightFt": 5,
+      "heightInch": 0,
+      "BMI": 19.81,
+      "status": "Normal Weight"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "weight": 45,
+      "heightFt": 5,
+      "heightInch": 10,
+      "BMI": 14.23,
+      "status": "Underweight"
     }
   ]
 }
